@@ -1,0 +1,9 @@
+node_modules/
+desktop/app/
+desktop/release/
+.env
+.env.*
+*.log
+*.exe
+private/
+local-data/

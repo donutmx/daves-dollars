@@ -1,0 +1,6 @@
+.projection-assumptions{margin-top:18px;border-top:1px solid #d5e4dd;padding-top:14px}.projection-assumptions summary{cursor:pointer;font-weight:650}.projection-assumptions .fields{margin-top:16px}.planning-link{background:#edf7f1;padding:14px;border-radius:12px;margin-top:16px}.planning-check{display:flex;align-items:center;gap:8px;font-weight:600;margin:10px 0}.planning-check input{width:auto}.funding-summary p,.funding-summary li{line-height:1.55}.big-number,.asset-equation strong,.result-row strong,.light-row strong{overflow-wrap:anywhere;min-width:0}.workspace-grid>*{min-width:0}.compare-homes{margin:12px 0;width:100%}.account-fields{min-width:0}.scenario-actions{flex-wrap:wrap}.funding-summary table{font-size:.85rem}@media(max-height:800px){.topbar{padding-top:12px;padding-bottom:12px}.page-title{margin-top:16px;margin-bottom:16px}.tabs{margin-top:16px}.result-card{padding:22px}}@media(max-width:480px){.big-number{font-size:clamp(1.7rem,9vw,3rem)}.asset-equation{gap:8px}.planning-check{align-items:flex-start}}
+
+#worth-panel #results{position:static;max-height:none;overflow:visible;padding-right:0}
+
+#worth-panel .table-scroll table{table-layout:fixed;width:100%}#worth-panel .table-scroll th,#worth-panel .table-scroll td{min-width:0;white-space:normal;overflow-wrap:anywhere}
+#worth-panel{overflow-wrap:anywhere}

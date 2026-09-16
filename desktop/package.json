@@ -1,0 +1,44 @@
+{
+  "name": "daves-dollars-desktop",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Offline home affordability, income, net worth and budget calculators",
+  "author": "Dave's Dollars",
+  "main": "main.cjs",
+  "scripts": {
+    "stage": "node stage.cjs",
+    "test": "node --test policy.test.cjs",
+    "start": "electron .",
+    "build": "node stage.cjs && electron-builder --win portable --x64 --arm64 --publish never"
+  },
+  "devDependencies": {
+    "electron": "44.3.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "com.davesdollars.desktop",
+    "productName": "Daves Dollars",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.cjs",
+      "policy.cjs",
+      "icon.ico",
+      "app/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico",
+      "requestedExecutionLevel": "asInvoker",
+      "signAndEditExecutable": true
+    },
+    "portable": {
+      "unpackDirName": true,
+      "artifactName": "Daves-Dollars-${version}-Windows-${arch}.exe",
+      "requestExecutionLevel": "user"
+    }
+  }
+}

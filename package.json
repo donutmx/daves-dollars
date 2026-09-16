@@ -1,0 +1,11 @@
+{
+  "name": "life-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser-local home affordability and net worth calculators",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "dev": "node scripts/serve.mjs"
+  }
+}
